@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <header>
+        <h1>To-do List</h1>
+        <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="Type here...">
+            <input type="submit" id="new-task-submit" value="Add task">
+        </form>
+    </header>
+   
+    <main>
+        
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <!-- FIRST TASK -->
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My task" placeholder="#" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 2ND TASK -->
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My task" placeholder="#" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 3RD TASK -->
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My task" placeholder="#" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 4TH TASK - JAVASCRIPT WILL ADD ALL THIS DIVS ON ADD TASK BUTTON CLICK -->
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My task" placeholder="#" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>  
+<script src="assets/script.js"></script> 
+</body>
+</html>
